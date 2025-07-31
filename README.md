@@ -79,6 +79,7 @@ Discovery Commands
 
 Privacy & Security Commands
 
+
 * `/block @user`       : Block a user
 * `/block`             : List blocked users
 * `/unblock @user`     : Unblock a user

@@ -1532,6 +1532,10 @@ class BitchatClient:
             await self.save_app_state()
             self.running = False
             return
+
+        if line == "/me":
+            print(f"\033[K\033[33m» Your Nickname is: {self.nickname}, Your ID: {self.my_peer_id}\033[0m")
+            return
         
         if line.startswith("/name "):
             new_name = line[6:].strip()

@@ -54,8 +54,6 @@ Navigation Commands
 
 Messaging Commands
 
-(Type normally to send in current mode)
-
 * `/dm <name>`          : Start private conversation
 * `/dm <name> <msg>`    : Send quick private message
 * `/reply`              : Reply to last private message
@@ -78,7 +76,6 @@ Discovery Commands
 
 
 Privacy & Security Commands
-
 
 * `/block @user`       : Block a user
 * `/block`             : List blocked users
